@@ -4,7 +4,7 @@
             :data-background-color="backgroundColor">
         <div class="container">
             <div class="copyright">
-                 Copyright &copy;
+                 Copyright &copy; 
                     {{year}} Pars Play All Rights Reserved.
             </div>
         </div>
