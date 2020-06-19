@@ -7,7 +7,7 @@
 
 
 
-        <router-link v-popover:popover1 class="navbar-brand" to="/presentation">
+        <router-link v-popover:popover1 class="navbar-brand" to="/home">
          <img src="img/parsplay_logo.png" width="48"/>
         </router-link>
 

@@ -28,7 +28,7 @@
                             </div>
                             <div class="pull-left">
                                 <h6>
-                                    <a href="#pablo" class="link footer-link">Create Account</a>
+                                    <a href="/login#/signup" class="link footer-link">Create Account</a>
                                 </h6>
                             </div>
                             <div class="pull-right">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <main-footer></main-footer>
+
     </div>
 </template>
 <script>

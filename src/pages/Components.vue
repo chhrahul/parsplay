@@ -81,8 +81,3 @@
     }
   };
 </script>
-<style>
-.bg-white {
-    background-color: #000 !important;
-}
-</style>

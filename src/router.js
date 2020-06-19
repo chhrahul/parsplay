@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Components from "./pages/Components.vue";
-import Presentation from "./pages/Presentation.vue";
+import Home from "./pages/Home.vue";
 import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
 import About from "./pages/example-pages/AboutUs.vue";
@@ -10,7 +10,7 @@ import BlogPosts from "./pages/example-pages/BlogPosts.vue";
 import ContactUs from "./pages/example-pages/ContactUs.vue";
 import LandingPage from "./pages/example-pages/LandingPage.vue";
 import LoginPage from "./pages/example-pages/LoginPage.vue";
-import PricingPage from "./pages/example-pages/PricingPage.vue";
+import Subscription from "./pages/Subscription.vue";
 import EcommercePage from "./pages/example-pages/EcommercePage.vue";
 import ProductPage from "./pages/example-pages/ProductPage.vue";
 import ProfilePage from "./pages/example-pages/ProfilePage.vue";
@@ -23,7 +23,7 @@ const router = new Router({
   routes: [
     {
       path: "/",
-      redirect: "/presentation"
+      redirect: "/home"
     },
     {
       path: "/components",
@@ -35,9 +35,9 @@ const router = new Router({
       }
     },
     {
-      path: "/presentation",
-      name: "presentation",
-      components: {default: Presentation, header: MainNavbar, footer: MainFooter},
+      path: "/home",
+      name: "home",
+      components: {default: Home, header: MainNavbar, footer: MainFooter},
       props: {header: {colorOnScroll: 500}}
     },
     {
@@ -65,9 +65,9 @@ const router = new Router({
       props: {footer: {type: 'default'}, header: {colorOnScroll: 450}}
     },
     {
-      path: "/pricing",
-      name: "pricing",
-      components: {default: PricingPage, header: MainNavbar, footer: MainFooter},
+      path: "/subscription",
+      name: "subscription",
+      components: {default: Subscription, header: MainNavbar, footer: MainFooter},
       props: {header: {colorOnScroll: 450}}
     },
     {
